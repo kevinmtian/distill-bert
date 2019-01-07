@@ -1,0 +1,10 @@
+{
+    "task": "mrpc",
+    "vocab_file": "../uncased_L-12_H-768_A-12/vocab.txt",
+    "data_file": {"train": "../glue/MRPC/train.tsv",
+                  "eval": "../glue/MRPC/dev.tsv"},
+    "max_len": 128,
+    "comments": [
+        ""
+    ]
+}
